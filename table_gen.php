@@ -2,8 +2,15 @@
 
 $row_count = $_GET["row_num"];
 $col_count = $_GET["col_num"];
+$gender = $_GET["gender"];
+$dept = $_GET["dept"];
+$msg = $_GET["message"];
 
 echo "列數". $row_count ."行數". $col_count;
+echo "性別". $gender . "。";
+echo "科系". $dept . "。";
+echo "留言". $msg . "。";
+
 
 echo "<table border = '1'>";
 
